@@ -52,6 +52,9 @@ flowchart LR
     H -->|No| J[Resolution]
     I --> J
     J --> K[Case Closure]
+```
+
+## 6. Key Functional Requirements
 ## 6. Key Functional Requirements
 
 ### FR-01: Case Creation
