@@ -36,10 +36,22 @@ Key responsibilities included:
 * QA / Testing Team
 * End Users
 
-## 5. High-Level Process
+## 5. To-Be Process Flow
 
-**Case Initiation → Validation → Assignment → Processing → Approval/Escalation → Resolution → Closure**
-
+```mermaid
+flowchart LR
+    A[Request Raised] --> B[Case Creation]
+    B --> C[Validation]
+    C --> D{Valid Request?}
+    D -->|Yes| E[Case Assignment]
+    D -->|No| F[Return for Correction]
+    F --> B
+    E --> G[Case Processing]
+    G --> H{Approval Required?}
+    H -->|Yes| I[Approval / Escalation]
+    H -->|No| J[Resolution]
+    I --> J
+    J --> K[Case Closure]
 ## 6. Key Functional Requirements
 
 ### FR-01: Case Creation
