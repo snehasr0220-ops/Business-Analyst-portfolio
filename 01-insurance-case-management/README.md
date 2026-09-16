@@ -55,7 +55,6 @@ flowchart LR
 ```
 
 ## 6. Key Functional Requirements
-## 6. Key Functional Requirements
 
 ### FR-01: Case Creation
 
